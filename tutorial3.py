@@ -1,9 +1,8 @@
 #Boundary Fill Algorithm
-
 import streamlit as st
 
 def is_valid(screen, m, n, x, y, border_colour, fill_colour):
-  if(x<0 or x>=m or y<0 or y>= n or screen[x][y]!= fill_colour and screen [x][y] != border_colour):
+  if(x<0 or x>=m or y<0 or y>= n or screen[x][y]!= fill_colour or screen [x][y] != border_colour):
     return False
   return True
 
@@ -64,4 +63,5 @@ def main():
     st.write()
 
 main()
+
 
