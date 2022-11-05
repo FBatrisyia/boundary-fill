@@ -35,6 +35,9 @@ def boundary_fill(screen, m, n, x, y, border_colour, fill_colour):
     
 
 def main():
+  
+  st.header("Boundary Fill Algorithm")
+  
   screen =[
   [1, 1, 1, 1, 1, 1, 1, 1],
   [1, 1, 1, 1, 1, 1, 0, 0],
